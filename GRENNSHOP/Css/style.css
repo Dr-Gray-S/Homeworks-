@@ -76,3 +76,67 @@ img.eye{
     padding: 10px;
     padding-left: 270px ;
 }
+div.pict{
+    margin-bottom: 16px;
+    position: relative;
+}
+input{
+    display: flex;
+    padding: 16px 74px;
+    border-radius: 8px;
+    color:#A5A5A5;
+    border: 1px solid gray;
+    font-size: 146x;
+    font-weight: 700;
+}
+input[type='submit']{
+    display: flex;
+    border-radius: 4px;
+    background-color:#46A358 ;
+    border:none ;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 119px;
+}
+span.Or{
+    display: flex;
+    margin-bottom: 16px;
+    color: #3D3D3D;
+    font-size: 13px;
+    font-weight: 400;
+    gap: 16px;
+}
+div.Google{
+    margin-bottom: 16px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid gray;
+    color: #EAEAEA;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 13px 80px;
+    gap: 9px
+}
+div.Facebook{
+    margin-bottom: 16px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid gray;
+    color: #EAEAEA;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 13px 75px;
+    gap: 9px
+}
+div.line{
+    height: 10px;
+    background-color: #46A358;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+span{
+    color: #727272;
+}
