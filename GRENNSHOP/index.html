@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regestration</title>
+    <link rel="stylesheet" href="./Css/style.css">
 </head>
 <body>
-    <form action="/submit" method="get" style="display: flex; flex-direction: column; align-items: center;">
-        <div style="position: absolute; top 13px; right: 13px;">
-            <img src="./X.svg" alt="">
+    <form action="/submit" method="get">
+        <div class="img">
+            <img src="./Pctures/X.svg" alt="">
         </div>
-        <div style="display: flex; border: none; padding: 10px; border-radius: 8px; gap: 8px;">
-            <span style="color: #3D3D3D; font-size: 20px; font-weight: 500;">Login</span>
-            <span style="color: #3D3D3D; font-size: 19px; font-weight: 250px; ;">|</span>
-            <span style="color: #46A358 ; font-size: 20px; font-weight: 500;">Register</span>
+        <div class="spann">
+            <span class="Login">Login</span>
+            <span class="one">|</span>
+            <span class="Register">Register</span>
         </div>
         <div>
-            <span style="display: flex; margin-bottom: 16px; color: #3D3D3D; font-size: 13px; font-weight: 400;">
+            <span class="Enter">
                 Enter your email and password to registe
             </span>
         </div>
         <div>
-            <Label style="margin-bottom: 16px;">
-                <input type="text" placeholder="Enter your email address" style="padding: 16px 79px; border-radius: 8px; border: 1px solid gray; left: 2px;">
+            <Label>
+                <input type="text" placeholder="Enter your email address">
                 <img src="" alt="">
             </Label>
         </div>
-        <div style="margin: 16px;">
+        <div class="input">
             <input type="text" placeholder="Username" style="padding: 16px 79px; border-radius: 8px;border: 1px solid gray ;color: gray; left: 2px; ">
         </div>
-        <label style="margin-bottom: 16px; ">
-            <input type="text" placeholder="Enter your email address" style="padding: 16px 79px; border-radius: 8px;border: 1px solid gray ;color: gray; ">
+        <label>
+            <input type="text" placeholder="Enter your email address">
         </label>
         <div style="margin-bottom: 16px; position: relative;">
             <!-- для позиционирование лучше использования margin-bottom и padding -->
             <label>
-                <input type="password" placeholder="Password" style=" padding: 16px 77px; border-radius: 8px;border: 1px solid gray ;color: gray; font-size: 14px; ">
-                <img src="./Hide.svg" alt="" style="position:absolute; right: 16px; top: 7px; left: 3px; padding: 10px; padding-left: 270px ;" >
+                <input type="password" placeholder="Password">
+                <img src="./Pctures/Hide.svg" class="eye" >
             </label>
         </div>
-        <label style="margin-bottom: 16px; ">
+        <label>
             <input type="password" placeholder="Confirm Password" style="display: flex; padding: 16px 74px; border-radius: 8px;color:#A5A5A5;border: 1px solid gray; font-size: 146x; font-weight: 700; ">
         </label>
-        <label style="margin-bottom: 16px; ">
+        <label >
             <input type="submit" value="Register" style="display: flex; border-radius: 4px;background-color:#46A358 ; border:none ;color:#FFFFFF; font-size: 16px; font-weight: 700; padding: 16px 119px; ">
         </label>
         <div>
@@ -51,17 +52,14 @@
             </span>
         </div>
         <div style="margin-bottom: 16px; display: flex; border-radius: 4px; border: 1px solid gray;color: #EAEAEA; font-size: 13px; font-weight: 500; padding: 13px 80px; gap: 9px ">
-            <span> <img src="./google 1.svg" alt=""></span>
+            <span> <img src="./Pctures/google 1.svg" alt=""></span>
             <span style="color: #727272;">Continue with Google</span>
         </div>
         <div style="margin-bottom: 16px;display: flex; border-radius: 4px; border: 1px solid gray;color: #EAEAEA; font-size: 13px; font-weight: 500; padding: 13px 75px; gap: 9px ">
-            <span> <img src="./facebook 1.svg" alt=""></span>
+            <span> <img src="./Pctures/facebook 1.svg" alt=""></span>
             <span style="color: #727272;">Continue with Facebook</span>
         </div>
         <div style="height: 10px; background-color: #46A358; width: 100%; position: fixed; bottom: 0; left: 0;">
-        </div>
-        <div>
-            <span> hello </span>
         </div>
     </form>
 </body>

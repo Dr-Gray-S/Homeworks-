@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.img{
+    position: absolute;
+    top 13px;
+    right: 13px;
+}
+div.spann{
+    display: flex;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 8px
+}
+span.Login{
+    color: #3D3D3D;
+    font-size: 20px;
+    font-weight: 500;
+}
+span.one{
+    color: #3D3D3D;
+    font-size: 19px;
+    font-weight: 250px;
+}
+span.Register{
+    color: #46A358 ;
+    font-size: 20px;
+    font-weight: 500;
+}
+span.Enter{
+    display: flex;
+    margin-bottom: 16px;
+    color: #3D3D3D;
+    font-size: 13px;
+    font-weight: 400;
+}
+label{
+    margin-bottom: 16px;
+}
+input[type='text']{
+    padding: 16px 79px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    left: 2px;
+}
+div.input{
+    margin: 16px;
+}
+input[type='password']{
+    padding: 16px 77px;
+    border-radius: 8px;
+    border: 1px solid gray ;
+    color: gray;
+    font-size: 14px;
+}
+img.eye{
+    position:absolute;
+    right: 16px;
+    top: 7px;
+    left: 3px;
+    padding: 10px;
+    padding-left: 270px ;
+}
