@@ -52,6 +52,7 @@ span.Enter{
 label{
     margin-bottom: 16px;
 }
+
 input[type='text']{
     padding: 16px 79px;
     border-radius: 8px;
@@ -59,7 +60,7 @@ input[type='text']{
     left: 2px;
 }
 div.input{
-    margin: 16px;
+    margin-bottom: 16px;
 }
 input[type='password']{
     padding: 16px 77px;
