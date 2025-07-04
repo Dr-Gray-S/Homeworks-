@@ -9,5 +9,46 @@
     font-size: 14px;
     border: none;
     background-color: transparent;
-    box-sizing: border-box; /* в основе используют эту штуку  */
+}
+
+.first{
+    padding: 30px 120px 52px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    padding: 8px 0 25px;
+}
+
+.active{
+    font-weight: 700px;
+    border-bottom: 3px solid #46A358;;
+}
+
+.button{
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 17px;
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.second{
+    padding: 12px 120px 52px;
 }
