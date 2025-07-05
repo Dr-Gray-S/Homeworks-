@@ -34,7 +34,7 @@
 }
 
 .active{
-    font-weight: 700px;
+    font-weight: 700;
     border-bottom: 3px solid #46A358;;
 }
 
@@ -69,13 +69,6 @@
     font-weight: 500;
 }
 
-.take-item2{
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 900;
-}
 
 .take-item3{
     color: #727272;
@@ -83,6 +76,22 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+}
+
+.planet{
+    font-family: "Cera Pro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    color: #46A358;
+}
+
+.make{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
 }
 
 .btn{
@@ -110,7 +119,9 @@
 .little{
     position: absolute;
     top: 298px ;
-    left:55px ;
+    left:100px ;
     width: 135px;
     height: 135px;
 }
+
+
