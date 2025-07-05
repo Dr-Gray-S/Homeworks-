@@ -51,6 +51,7 @@
 
 .second{
     padding: 6px 120px 52px;
+    box-sizing: border-box;
 }
 
 .center{
@@ -69,7 +70,7 @@
     font-style: normal;
     font-weight: 500;
     margin: 68px 445px 7px 43px;
-    width: 80%;
+    width: 30%;
 }
 
 
@@ -84,7 +85,7 @@
 
 .make-planet{
     padding: 0 123px 5px 40px;
-    width: 125%;
+    width: 100%;
 }
 
 .planet{
@@ -112,16 +113,15 @@
     font-style: normal;
     font-weight: 700;
     padding:11px 27px ;
-    margin: 22px;
+    margin: 0 512px 85px 41px;
 }
 
 .pictures{
     position: relative;
-    padding: 0;
 }
 
 .big{
-    width: 507px;
+    width: 130%;
     height: 450px;
 }
 
@@ -129,7 +129,7 @@
     position: absolute;
     top: 298px ;
     left:100px ;
-    width: 135px;
+    width: 30%;
     height: 135px;
 }
 
