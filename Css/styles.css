@@ -12,7 +12,7 @@
 }
 
 .first{
-    padding: 30px 120px 52px;
+    padding: 30px 120px 6px;
 }
 .header{
     display: flex;
@@ -50,12 +50,13 @@
 }
 
 .second{
-    padding: 12px 120px 52px;
+    padding: 6px 120px 52px;
 }
 
 .center{
     display: flex;
     align-items: center;
+    background-color: #F5F5F580;
 }
 
 .take{
@@ -67,6 +68,8 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
+    margin: 68px 445px 7px 43px;
+    width: 80%;
 }
 
 
@@ -76,6 +79,12 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    padding: 0 93px 44px 43px;
+}
+
+.make-planet{
+    padding: 0 123px 5px 40px;
+    width: 125%;
 }
 
 .planet{
@@ -108,7 +117,7 @@
 
 .pictures{
     position: relative;
-    padding: 12px 0 0 93px;
+    padding: 0;
 }
 
 .big{
