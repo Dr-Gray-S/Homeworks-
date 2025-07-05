@@ -117,6 +117,7 @@
     padding:9px 27px ;
     margin: 0 512px 85px 41px;
     border-radius: 6px;
+    white-space: nowrap;
 }
 
 .pictures{
