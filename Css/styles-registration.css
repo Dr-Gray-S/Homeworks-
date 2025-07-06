@@ -102,6 +102,7 @@ a[type='submit']{
     font-size: 16px;
     font-weight: 700;
     padding: 16px 128px;
+    cursor: pointer;
 }
 span.Or{
     display: flex;
