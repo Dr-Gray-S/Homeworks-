@@ -55,15 +55,17 @@
 }
 
 .center{
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
     background-color: #F5F5F580;
+    font-size: 0;
 }
 
 .take{
     gap: 5px;
-    flex: 1;
+    display: inline-block;
+    width: 65%;
 }
 .take-item1{
     color: #3D3D3D;
@@ -122,10 +124,10 @@
 }
 
 .pictures{
+
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    display: inline-block;
+    width: 35%;
 }
 
 .big{
