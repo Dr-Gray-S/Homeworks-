@@ -84,13 +84,18 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    padding: 0 93px 44px 43px;
+    margin: 0 93px 44px 43px;
     width: 90%;
 }
 
 .make-planet{
-    padding: 0 123px 5px 40px;
+    margin: 0 123px 5px 40px;
     width: 100%;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
 }
 
 .planet{
@@ -99,14 +104,6 @@
     font-style: normal;
     font-weight: 900;
     color: #46A358;
-}
-
-.make{
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 900;
 }
 
 .btn{
@@ -120,7 +117,6 @@
     font-weight: 700;
     padding:9px 27px ;
     margin: 0 512px 85px 41px;
-    border-radius: 6px;
 }
 
 .pictures{
