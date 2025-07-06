@@ -93,7 +93,7 @@ input{
     font-size: 146x;
     font-weight: 700;
 }
-input[type='submit']{
+a[type='submit']{
     display: flex;
     border-radius: 5px;
     background-color:#46A358 ;
