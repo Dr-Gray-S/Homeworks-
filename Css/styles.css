@@ -50,7 +50,7 @@
 }
 
 .second{
-    padding: 6px 120px 52px;
+    margin: 6px 120px 52px;
     box-sizing: border-box;
 }
 
@@ -116,11 +116,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
-    padding:9px 27px;
     text-align: center;
     border: none;
     cursor: pointer;
+    padding:9px 27px;
     margin: 0 512px 85px 41px;
 }
 
