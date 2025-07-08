@@ -55,17 +55,18 @@
 }
 
 .center{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
+    width: 100%;
     background-color: #F5F5F580;
     font-size: 0;
 }
 
 .take{
-    gap: 5px;
     display: inline-block;
-    width: 65%;
+    vertical-align: top;
+    width: 60%;
+    font-size: 16px;
+    padding: 70px 0 70px 40px;
 }
 .take-item1{
     color: #3D3D3D;
@@ -73,8 +74,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    margin: 68px 445px 7px 43px;
-    width: 30%;
+    margin-bottom: 10px;
 }
 
 
@@ -84,18 +84,17 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    margin: 0 93px 44px 43px;
+    margin-bottom: 30px;
     width: 90%;
 }
 
 .make-planet{
-    margin: 0 123px 5px 40px;
-    width: 100%;
     color: #3D3D3D;
     font-family: "Cera Pro";
     font-size: 70px;
     font-style: normal;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .planet{
@@ -120,14 +119,15 @@
     border: none;
     cursor: pointer;
     padding:9px 27px;
-    margin: 0 512px 85px 41px;
+    margin-left: 0;
+    margin-bottom: 10px;
 }
 
 .pictures{
-
     position: relative;
     display: inline-block;
-    width: 35%;
+    vertical-align: top;
+    width: 40%;
 }
 
 .big{
@@ -135,7 +135,6 @@
     align-items: center;
     width: 100%;
     height: 450px;
-    max-width: 100%
 }
 
 .little{
