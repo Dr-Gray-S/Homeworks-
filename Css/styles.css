@@ -42,7 +42,7 @@
 }
 
 .first{
-    margin: 20px;
+    margin: 30px 120px 12px;
 }
 .header{
     display: flex;
@@ -83,7 +83,7 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 20px;
+    margin: 30px 120px 12px;
 }
 
 .center{
@@ -163,15 +163,13 @@
 }
 
 .big{
-    display: flex;
-    align-items: center;
     width: 100%;
     height: 450px;
 }
 
 .little{
     position: absolute;
-    top: 298px ;
+    bottom: 40px;
     left: 50px;
     width: 30%;
     height: 135px;
