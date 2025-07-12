@@ -41,6 +41,144 @@
     background-color: transparent;
 }
 
+.first{
+    margin: 30px 105px 12px;
+}
+.headerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+}
+.nave{
+    display: flex;
+    gap: 50px;
+}
+
+.nave-item{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    padding: 8px 0 25px;
+}
+
+.active{
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;;
+}
+
+.button{
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 17px;
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 30px 105px 12px;
+}
+
+.center{
+    display: inline-block;
+    width: 100%;
+    background-color: #F5F5F580;
+    font-size: 0;
+}
+
+.take{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 16px;
+    padding: 70px 0 70px 40px;
+}
+.take-item1{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.take-item3{
+    color: #727272;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.make-planet{
+    color: #3D3D3D;
+    font-family: 'Cera Pro';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.planet{
+    font-family: 'Cera Pro';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    color: #46A358;
+}
+
+.btn{
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 6px;
+    background: #46A358;
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding:9px 27px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.pictures{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+
+.big{
+    width: 100%;
+    height: auto;
+}
+
+.little{
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+}
+
+
+
+
+
+
 .conteiner{
     display: flex;
     margin: 82px 105px;
@@ -163,8 +301,8 @@
 
 
 .img1{
-    width: 258px;
-    height: 350px;
+    width: 170px;
+    height: 270px;
 }
 
 p{
