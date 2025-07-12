@@ -82,12 +82,13 @@
 .second{
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
+    align-items: center;
     margin: 30px 105px 12px;
 }
 
 .center{
     display: inline-block;
+    align-items: baseline;
     width: 100%;
     background-color: #F5F5F580;
     font-size: 0;
@@ -95,7 +96,7 @@
 
 .take{
     display: inline-block;
-    vertical-align: top;
+    align-items: baseline;
     width: 50%;
     font-size: 16px;
     padding: 70px 0 70px 40px;
@@ -165,13 +166,14 @@
 
 .big{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .little{
     position: absolute;
-    left: 40px;
-    bottom: 30px;
+    width: 30%;
+    left: 10%;
+    bottom: 6%;
 }
 
 
