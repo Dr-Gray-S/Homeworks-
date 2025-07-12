@@ -305,7 +305,7 @@
     height: 270px;
 }
 
-p{
+p.text{
     text-align: center;
     color: #3D3D3D;
     font-family: "Cera Pro";
@@ -315,6 +315,7 @@ p{
 }
 
 .num{
+    text-align: center;
     color: #46A358;
     font-family: "Cera Pro";
     font-size: 18px;
