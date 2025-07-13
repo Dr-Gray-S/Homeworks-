@@ -42,7 +42,10 @@
 }
 
 .conteiner{
+    display: flex;
+    flex-direction: column;
     margin: 69px 119px;
+    row-gap: 138px;
 }
 
 .up{
@@ -60,7 +63,7 @@
     justify-content: center;
 }
 
-h1{
+.tnt{
     color: #3D3D3D;
     text-align: right;
     font-family: "Cera Pro";
@@ -94,5 +97,87 @@ p.text{
 
 .down{
     display: flex;
+    flex-direction: column;
+}
+
+.tekst2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tnt1{
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.tnt2{
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.posts{
+    display: flex;
+    gap: 28px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.base{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.base2{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.base3{
+    color: #727272;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bottom2{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.svg-container{
 
 }
+
+.bottom2:hover ,svg{
+    color: #46A358;
+}
+
+.alle-pictures{
+
+}
+
