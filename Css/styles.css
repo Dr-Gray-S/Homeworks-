@@ -41,335 +41,58 @@
     background-color: transparent;
 }
 
-.first{
-    margin: 30px 105px 12px;
-}
-.headerr{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
-}
-.nave{
-    display: flex;
-    gap: 50px;
+.conteiner{
+    margin: 69px 119px;
 }
 
-.nave-item{
+.up{
+    display: flex;
+    gap: 28px;
+}
+
+.first-items{
+    display: flex;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
     color: #3D3D3D;
+    text-align: right;
     font-family: "Cera Pro";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
-    padding: 8px 0 25px;
+    font-weight: 900;
+    margin-bottom: 9px;
 }
 
-.active{
-    font-weight: 700;
-    border-bottom: 3px solid #46A358;;
+p.text{
+    color: #727272;
+    text-align: right;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
 }
 
 .button{
-    border-radius: 6px;
-    background: #46A358;
-    padding: 8px 17px;
     color: #FFF;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.second{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px 105px 12px;
-}
-
-.center{
-    display: inline-block;
-    align-items: baseline;
-    width: 100%;
-    background-color: #F5F5F580;
-    font-size: 0;
-}
-
-.take{
-    display: inline-block;
-    align-items: baseline;
-    width: 50%;
-    font-size: 16px;
-    padding: 70px 0 70px 40px;
-}
-.take-item1{
-    color: #3D3D3D;
     font-family: "Cera Pro";
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: 10px;
-}
-
-
-.take-item3{
-    color: #727272;
-    font-family: "Cera Pro";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    margin-bottom: 30px;
-    width: 100%;
-}
-
-.make-planet{
-    color: #3D3D3D;
-    font-family: 'Cera Pro';
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 900;
-    margin-bottom: 10px;
-}
-
-.planet{
-    font-family: 'Cera Pro';
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 900;
-    color: #46A358;
-}
-
-.btn{
-    display: inline-block;
-    white-space: nowrap;
     border-radius: 6px;
     background: #46A358;
-    color: #FFF;
-    font-family: "Cera Pro";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    padding:9px 27px;
-    margin-left: 0;
-    margin-bottom: 10px;
+    padding: 9px 28px;
+    margin-bottom: 46px ;
 }
 
-.pictures{
-    position: relative;
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-}
-
-
-.big{
-    width: 100%;
-    height: 100%;
-}
-
-.little{
-    position: absolute;
-    width: 30%;
-    left: 10%;
-    bottom: 6%;
-}
-
-
-
-
-
-
-.conteiner{
+.down{
     display: flex;
-    margin: 82px 105px;
-    gap: 25px;
-}
 
-.left-part{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.nav{
-    padding: 7px 240px 320px 12px;
-}
-
-.nav-item{
-    text-align: left;
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 10px;
-    padding-bottom: 25px;
-}
-
-.nav-item1{
-    color: #46A358;
-    font-family: "Cera Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    padding-left: 10px;
-    width: 120%;
-    padding-bottom: 25px;
-}
-
-.nav-item2{
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    padding-bottom: 15px;
-}
-
-.right-part{
-    display:flex;
-    flex-direction: column;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 38px;
-}
-
-.head1{
-    display: flex;
-    gap: 40px;
-}
-
-.head2{
-    display: flex;
-    gap: 8px;
-}
-
-.sss{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Plants{
-    display: flex;
-    justify-content: space-between;
-    color: #46A358;
-    font-family: "Cera Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    border-bottom: 2px solid #46A358;
-}
-
-.other1{
-    display: flex;
-    justify-content: space-between;
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 10px;
-}
-
-.sale{
-    display: flex;
-    align-items: end;
-    justify-content: end;
-}
-
-.other2{
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    padding-right: 5px;
-}
-
-.img{
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap:70px ;
-    column-gap: 37px;
-}
-
-
-.img1{
-    width: 180px;
-    height: 250px;
-}
-
-p.text{
-    text-align: center;
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.num{
-    text-align: center;
-    color: #46A358;
-    font-family: "Cera Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.number{
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
-    gap: 10px;
-    margin-top: 90px;
-    margin-right: 105px;
-    margin-bottom: 90px;
-}
-
-.number1{
-    border-radius: 4px;
-    border: 1px solid #E5E5E5;
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    padding: 10px 13px;
-}
-
-.number2{
-    border-radius: 4px;
-    background: #46A358;
-    border: 1px solid #46A358;
-    color: #3D3D3D;
-    color: #FFF;
-    font-family: "Cera Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    padding: 10px 13px;
-}
-
-.arrow{
-    border-radius: 4px;
-    border: 1px solid #E5E5E5;
-    color: #3D3D3D;
-    font-family: "Cera Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    padding: 10px 12px;
-}
-
-.arow{
-    transform: rotate(-90deg);
 }
