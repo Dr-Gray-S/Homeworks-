@@ -57,6 +57,11 @@
     display: flex;
 }
 
+.jin{
+    width: 287px;
+    height: 292px;
+}
+
 .text1{
     display: flex;
     flex-direction: column;
@@ -128,12 +133,15 @@ p.text{
 
 .posts{
     display: flex;
+    justify-content: center;
     gap: 28px;
 }
 
 .class{
     display: flex;
     flex-direction: column;
+    align-items: start;
+    gap: 4px;
     justify-content: space-between;
 }
 
@@ -169,15 +177,19 @@ p.text{
     font-weight: 500;
 }
 
-.svg-container{
-
+.svg-container:hover path{
+    fill: #46A358;
 }
 
-.bottom2:hover ,svg{
+
+
+.bottom2:hover {
     color: #46A358;
+    fill: #46A358;
 }
 
 .alle-pictures{
-
+    width: 268px;
+    height: 174px;
 }
 
