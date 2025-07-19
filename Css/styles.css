@@ -297,8 +297,51 @@
     align-content: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap:70px ;
-    column-gap: 70px;
+    row-gap: 40px ;
+    column-gap: 40px;
+}
+
+.gsvg path{
+    fill: #3D3D3D;
+}
+
+.gsvg:hover path{
+    fill: #46A358;
+}
+
+.img123:hover{
+    border-top: 1px solid #46A358;
+
+}
+
+.img123{
+    position: relative;
+}
+
+.container-svg{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    bottom: 14px;
+    left: 55px;
+}
+
+.OFF{
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #46A358;
+    padding: 7px 8px;
+    left: 0;
+    position: absolute ;
+}
+
+.img456{
+    position: relative;
 }
 
 .img-item{
@@ -309,8 +352,9 @@
 }
 
 .img1{
-    width: 180px;
+    width: 220px;
     height: 250px;
+    position: relative;
 }
 
 p.text{
@@ -322,6 +366,11 @@ p.text{
     font-weight: 400;
 }
 
+.num-item{
+    display: flex;
+    gap: 16px;
+}
+
 .num{
     text-align: center;
     color: #46A358;
@@ -329,6 +378,15 @@ p.text{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+}
+
+.num1{
+    color: #A5A5A5;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: line-through;
 }
 
 .number{
