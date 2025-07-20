@@ -526,12 +526,14 @@ p.text{
 
 .up111{
     display: flex;
+    justify-content: center;
     gap: 28px;
 }
 
 .first-items111{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .jin111{
@@ -543,6 +545,7 @@ p.text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
 }
 
 .tnt111{
