@@ -76,7 +76,7 @@
     flex-direction: column;
     align-items: start;
     background: #EDF6EE;
-    top: 125%;
+    top: 110%;
     right: -50%;
 
 }
@@ -86,6 +86,7 @@
     font-family: "Encode Sans Expanded";
     font-size: 16px;
     font-style: normal;
+    font-weight: 400;
     padding: 12px;
 }
 
@@ -105,10 +106,42 @@
     display: block;
 }
 
+.sub-nave-item1:hover{
+    color: #FFF;
+    font-family: "Encode Sans Expanded";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    background: #1A712A;
+
+}
+
 .svggg{
     display: flex;
     align-items: end;
     justify-content: end;
+}
+
+.sub-sub-item{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    background: #EDF6EE;
+}
+
+.sub-sub-nave-item{
+    color: #3D3D3D;
+    font-family: "Encode Sans Expanded";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 12px;
+}
+
+.sub-list:hover>.sub-sub-item{
+    display: block;
 }
 
 .button{
@@ -478,4 +511,161 @@ p.text{
 
 .arow{
     transform: rotate(-90deg);
+}
+
+
+
+
+
+.conteiner111{
+    display: flex;
+    flex-direction: column;
+    margin: 69px 119px;
+    row-gap: 138px;
+}
+
+.up111{
+    display: flex;
+    gap: 28px;
+}
+
+.first-items111{
+    display: flex;
+    justify-content: center;
+}
+
+.jin111{
+    width: 287px;
+    height: 292px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tnt111{
+    color: #3D3D3D;
+    text-align: right;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 9px;
+}
+
+p.text1231{
+    color: #727272;
+    text-align: right;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.button010{
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+    background: #46A358;
+    padding: 9px 28px;
+    margin-bottom: 46px ;
+}
+
+.down111{
+    display: flex;
+    flex-direction: column;
+}
+
+.tekst2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tnt1{
+    color: #3D3D3D;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.tnt2{
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+.base{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.base2{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.base3{
+    color: #727272;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bottom2{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.svg-container:hover path{
+    fill: #46A358;
+}
+
+
+
+.bottom2:hover {
+    color: #46A358;
+    fill: #46A358;
+}
+
+.alle-pictures{
+    width: 268px;
+    height: 174px;
 }
