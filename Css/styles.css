@@ -67,6 +67,7 @@
     font-style: normal;
     padding: 8px 0 25px;
     position: relative;
+    border-bottom: 3px solid transparent;
 }
 
 .sub-list{
@@ -78,6 +79,7 @@
     background: #EDF6EE;
     top: 110%;
     right: -50%;
+    z-index: 1;
 
 }
 
@@ -92,7 +94,7 @@
 
 .sub-nave-item1{
     display: flex;
-    color: #3D3D3D;
+    color:#3D3D3D;
     font-family: "Encode Sans Expanded";
     font-size: 16px;
     font-style: normal;
@@ -113,7 +115,14 @@
     font-style: normal;
     font-weight: 700;
     background: #1A712A;
+}
 
+.sub-nave-item1:hover>svg{
+    transform: rotate(-180deg);
+}
+
+.sub-nave-item1:hover>svg>path{
+    fill: #FFFFFF;
 }
 
 .svggg{
@@ -124,6 +133,10 @@
 
 .sub-sub-item{
     display: none;
+    left: 100%;
+    top: 74%;
+    width: 100%;
+    flex-wrap: nowrap;
     position: absolute;
     justify-content: center;
     flex-direction: column;
@@ -138,11 +151,17 @@
     font-style: normal;
     font-weight: 400;
     padding: 12px;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
-.sub-list:hover>.sub-sub-item{
+.nave>.nave-item>.sub-list>.sub-nave-item1:hover>.sub-sub-item{
     display: block;
 }
+
+
+
+
 
 .button{
     border-radius: 6px;
