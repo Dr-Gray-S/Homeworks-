@@ -378,6 +378,35 @@
     column-gap: 40px;
 }
 
+.img-item{
+    display: flex;
+    border: 1px solid transparent;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.img123{
+    display: flex;
+    position: relative;
+}
+
+.img1{
+    width: 220px;
+    height: 250px;
+    position: relative;
+}
+
+.container-svg{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    bottom: 14px;
+    left: 55px;
+}
+
 .gsvg path{
     fill: #3D3D3D;
 }
@@ -386,24 +415,15 @@
     fill: #46A358;
 }
 
-.img123:hover{
+.img-item:hover{
     border-top: 1px solid #46A358;
 
 }
 
-.img123{
-    position: relative;
+.img-item>.img123:hover>.container-svg{
+    display: flex;
 }
 
-.container-svg{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    gap: 26px;
-    bottom: 14px;
-    left: 55px;
-}
 
 .OFF{
     color: #FFF;
@@ -417,22 +437,6 @@
     position: absolute ;
 }
 
-.img456{
-    position: relative;
-}
-
-.img-item{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 5px;
-}
-
-.img1{
-    width: 220px;
-    height: 250px;
-    position: relative;
-}
 
 p.text{
     text-align: center;
@@ -657,15 +661,9 @@ p.text1231{
     font-weight: 500;
 }
 
-.svg-container:hover path{
+.bottom2:hover>svg>path, .bottom2:hover{
     fill: #46A358;
-}
-
-
-
-.bottom2:hover {
     color: #46A358;
-    fill: #46A358;
 }
 
 .alle-pictures{
