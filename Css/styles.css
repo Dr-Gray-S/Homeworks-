@@ -797,7 +797,7 @@ p.text1231{
 
 .big-gradient{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 27px;
     background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
     margin-bottom: 33px;
