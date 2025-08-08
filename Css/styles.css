@@ -289,8 +289,83 @@
     justify-content: space-between;
 }
 
+.txt-base-all{
+}
+
+.text-check-nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav{
-    padding: 7px 240px 320px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.checkbox-nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    gap: 150px;
+    text-align: left;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.custom-check-item{
+    position: relative;
+}
+
+.span-text{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.custom-checkbox::before{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.custom-checkbox input:checked ~ .custom-check-item{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.custom-checkbox:checked ~ .span-text{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.checkbox{
+    display: none;
 }
 
 .nav-item{
