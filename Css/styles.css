@@ -330,7 +330,7 @@
     position: relative;
 }
 
-.span-text{
+.custom-checkbox > .span-text{
     color: #3D3D3D;
     font-family: "Cera Pro";
     font-size: 15px;
@@ -356,7 +356,7 @@
     font-weight: 700;
 }
 
-.custom-checkbox:checked ~ .span-text{
+.custom-checkbox input:checked ~ .span-text{
     color: #46A358;
     font-family: "Cera Pro";
     font-size: 15px;
