@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Light.eot');
+    src: url('../fonts/CeraPro-Light.eot#iefix') format('embedded-opentype');
+    src: url('../fonts/CeraPro-Light.woff2')format('woff2');
+    src: url('../fonts/CeraPro-Light.woff') format('woff');
+    src: url('../fonts/CeraPro-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot#iefix') format('embedded-opentype');
+    src: url('../fonts/CeraPro-Medium.woff2')format('woff2');
+    src: url('../fonts/CeraPro-Medium.woff') format('woff');
+    src: url('../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Black.eot');
+    src: url('../fonts/CeraPro-Black.eot#iefix') format('embedded-opentype');
+    src: url('../fonts/CeraPro-Black.woff2')format('woff2');
+    src: url('../fonts/CeraPro-Black.woff') format('woff');
+    src: url('../fonts/CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -29,16 +59,19 @@ div.spann{
 }
 span.Login{
     color: #3D3D3D;
+    font-family: "Cera Pro";
     font-size: 20px;
     font-weight: 500;
 }
 span.one{
     color: #3D3D3D;
+    font-family: "Cera Pro";
     font-size: 19px;
     font-weight: 250px;
 }
 span.Register{
     color: #46A358 ;
+    font-family: "Cera Pro";
     font-size: 20px;
     font-weight: 500;
 }
@@ -46,6 +79,7 @@ span.Enter{
     display: flex;
     margin-bottom: 16px;
     color: #3D3D3D;
+    font-family: "Cera Pro";
     font-size: 13px;
     font-weight: 400;
 }
@@ -57,6 +91,7 @@ input[type='text']{
     padding: 16px 79px;
     border-radius: 8px;
     border: 1px solid gray;
+    font-family: "Cera Pro";
     padding-left: 14px;
     padding-right: 138px;
 }
@@ -68,6 +103,7 @@ input[type='password']{
     border-radius: 8px;
     border: 1px solid gray ;
     color: gray;
+    font-family: "Cera Pro";
     font-size: 14px;
     padding-left: 14px;
     padding-right: 138px;
@@ -90,6 +126,7 @@ input{
     border-radius: 8px;
     color:#A5A5A5;
     border: 1px solid gray;
+    font-family: "Cera Pro";
     font-size: 146x;
     font-weight: 700;
 }
@@ -99,6 +136,7 @@ a[type='submit']{
     background-color:#46A358 ;
     border:none ;
     color:#FFFFFF;
+    font-family: "Cera Pro";
     font-size: 16px;
     font-weight: 700;
     padding: 16px 128px;
@@ -118,6 +156,7 @@ div.Google{
     border-radius: 4px;
     border: 1px solid gray;
     color: #EAEAEA;
+    font-family: "Cera Pro";
     font-size: 13px;
     font-weight: 500;
     padding: 13px 80px;
@@ -129,6 +168,7 @@ div.Facebook{
     border-radius: 4px;
     border: 1px solid gray;
     color: #EAEAEA;
+    font-family: "Cera Pro";
     font-size: 13px;
     font-weight: 500;
     padding: 13px 75px;
