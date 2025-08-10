@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex</title>
     <link rel="stylesheet" href="./Css/styles.css">
+    <link rel="stylesheet" href="./Css/preloader.css">
 </head>
 <body>
+        <div class="preloader">
+        <div class="blockLine">
+            <div class="line">
+                <span class="round">
+                </span>
+            </div>
+            <div class="info">
+                <h2>Websit is loading
+                    <span style="--i:0">.</span>
+                    <span style="--i:1">.</span>
+                    <span style="--i:2">.</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var preloader = document.querySelector(".preloader");
+        window.onload = function(){
+            setTimeout(function(){
+                preloader.remove();
+            }, 2000);
+        }
+        </script>
     <div class="first">
         <header class="headerr">
             <svg xmlns="http://www.w3.org/2000/svg" width="150" height="35" viewBox="0 0 150 35" fill="none">
