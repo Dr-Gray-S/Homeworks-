@@ -527,7 +527,6 @@
   gap: 28px;
 }
 .conteiner111 .up111 .first-items111 {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -539,7 +538,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end;
+  align-items: center;
 }
 .conteiner111 .up111 .first-items111 .text1 p.text1231 {
   color: #727272;
@@ -659,7 +658,10 @@
   gap: 65px;
 }
 .big-one-gradient .text-pictures .block-1 .text-block1 {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 15px;
   border-right: 1px solid rgba(70, 163, 88, 0.1);
 }
@@ -695,6 +697,8 @@
 .big-one-gradient .text-pictures .text-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 15px;
 }
 .big-one-gradient .text-pictures .text-block .text-h-2 {
@@ -721,7 +725,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   margin-top: 50px;
 }
 .big-one-gradient .text-pictures .big-text-input .text-h-1 {
@@ -743,12 +747,16 @@
   width: 80%;
   margin-top: 18px;
 }
-.big-one-gradient .text-pictures .big-text-input .btn-white {
+.big-one-gradient .text-pictures .big-text-input .dvd-button {
+  display: flex;
+  flex-direction: column;
+}
+.big-one-gradient .text-pictures .big-text-input .dvd-button .btn-white {
   border-radius: 6px;
   background: #FFF;
   padding: 12px 110px 12px 12px;
 }
-.big-one-gradient .text-pictures .big-text-input .btn-green {
+.big-one-gradient .text-pictures .big-text-input .dvd-button .btn-green {
   color: #FFF;
   font-family: "Cera Pro";
   font-size: 18px;
@@ -789,8 +797,10 @@
 }
 .big-one-gradient .account-sosialmedia .tavlet-text .text-ull {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 5px;
+  margin-bottom: 30px;
 }
 .big-one-gradient .account-sosialmedia .tavlet-text .text-ull .text-h-3 {
   color: #3D3D3D;
@@ -812,7 +822,7 @@
 .big-one-gradient .account-sosialmedia .tavlet-text .all-svg-text {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
 }
 .big-one-gradient .account-sosialmedia .tavlet-text .all-svg-text .text-h-end {
   color: #3D3D3D;
