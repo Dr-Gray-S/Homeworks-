@@ -42,14 +42,14 @@
 }
 
 .first{
-    margin: 30px 105px 10px;
+    margin: 30px 60px 10px;
     .headerr{
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
         align-items: start;
         border-bottom: 1px solid rgba(70, 163, 88, 0.50);
         .nave{
-            display: flex;
+            // display: flex;
             gap: 50px;
             .nave-item{
                 color: #3D3D3D;
@@ -89,7 +89,7 @@
                     align-items: start;
                     background: #EDF6EE;
                     top: 110%;
-                    right: -50%;
+                    // right: -50%;
                     z-index: 1;
                     .sub-nave-item{
                         color: #3D3D3D;
@@ -177,7 +177,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 105px 12px;
+    margin: 0 60px 12px;
     .center{
         display: inline-block;
         align-items: baseline;
@@ -187,9 +187,9 @@
         .take{
             display: inline-block;
             align-items: baseline;
-            width: 50%;
+            // width: 50%;
             font-size: 16px;
-            padding: 70px 0 70px 40px;
+            // padding: 70px 0 70px 40px;
             .take-item1{
                 color: #3D3D3D;
                 font-family: "Cera Pro";
@@ -244,7 +244,8 @@
             position: relative;
             display: inline-block;
             vertical-align: top;
-            width: 50%;
+            // width: 50%;
+            width: 120%;
             .big{
                 width: 100%;
                 height: 100%;
@@ -261,13 +262,14 @@
 
 
 .conteiner{
-    display: flex;
-    margin: 82px 105px;
+    // display: flex;
+    margin: 82px 60px;
     gap: 25px;
     .left-part{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 50px;
         .txt-base-all{
             .nav-item2{
                 color: #3D3D3D;
@@ -354,6 +356,7 @@
     .right-part{
         display:flex;
         flex-direction: column;
+        align-items: center;
         .header{
             display: flex;
             justify-content: space-between;
@@ -404,7 +407,8 @@
             display: flex;
             align-content: center;
             flex-wrap: wrap;
-            justify-content: space-between;
+            // justify-content: space-between;
+            justify-content: center;
             row-gap: 40px ;
             column-gap: 40px;
             .img-item{
@@ -537,12 +541,12 @@
 
 
 .conteiner111{
-    display: flex;
+    // display: flex;
     flex-direction: column;
-    margin: 69px 105px;
+    margin: 69px 60px;
     row-gap: 138px;
     .up111{
-        display: flex;
+        // display: flex;
         justify-content: center;
         gap: 28px;
         .first-items111{
@@ -617,7 +621,7 @@
             }
         }
         .posts{
-            display: flex;
+            // display: flex;
             justify-content: center;
             gap: 28px;
             .class{
@@ -670,17 +674,17 @@
 }
 
 .big-one-gradient{
-    margin: 69px 105px;
+    margin: 69px 60px;
     .text-pictures{
-        display: flex;
+        // display: flex;
         padding: 24px;
         gap: 62px;
         margin-bottom: 24px;
         .block-1{
-            display: flex;
+            // display: flex;
             gap: 65px;
             .text-block1{
-                display: flex;
+                // display: flex;
                 flex-direction: column;
                 gap: 15px;
                 border-right: 1px solid rgba(70, 163, 88, 0.10);
@@ -745,6 +749,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: start;
+            margin-top: 50px;
             .text-h-1{
                 color: #3D3D3D;
                 font-family: "Cera Pro";
@@ -782,13 +787,13 @@
         }
     }
     .big-gradient{
-        display: flex;
+        // display: flex;
         justify-content: space-between;
         padding: 27px;
         background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
         margin-bottom: 33px;
         .lv-1{
-            display: flex;
+            // display: flex;
             gap: 100px;
             .lv-1-1{
                 display:flex;
@@ -803,12 +808,12 @@
         }
     }
     .account-sosialmedia{
-        display: flex;
+        // display: flex;
         gap: 173px;
         padding: 24px;
         border-bottom: 1px solid rgba(70, 163, 88, 0.20);
         .tavlet-text{
-            display: flex;
+            // display: flex;
             justify-content: space-between;
             gap: 120px;
             padding-bottom: 27px;
