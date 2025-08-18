@@ -48,7 +48,8 @@
 }
 
 .preloader .line{
-    width: 500px;
+    /* width: 500px; */
+    width: 350px;
     height: 15px;
     background: #fcfcfc;
     border-radius: 50px;
