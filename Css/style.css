@@ -173,7 +173,7 @@
 }
 .second .center .take {
   display: inline-block;
-  align-items: baseline;
+  align-items: center;
   font-size: 16px;
 }
 .second .center .take .take-item1 {
@@ -229,7 +229,7 @@
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 120%;
+  width: 100%;
 }
 .second .center .pictures .big {
   width: 100%;
