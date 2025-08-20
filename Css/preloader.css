@@ -59,6 +59,12 @@
     overflow: hidden;
 }
 
+@media screen and (min-width:1200) {
+    .preloader .line{
+        width: 500px;
+    }
+}
+
 .preloader .line .round{
     position: absolute;
     left: 0;
