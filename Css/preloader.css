@@ -48,7 +48,6 @@
 }
 
 .preloader .line{
-    /* width: 500px; */
     width: 320px;
     height: 15px;
     background: #fcfcfc;
@@ -59,9 +58,15 @@
     overflow: hidden;
 }
 
+@media screen and (min-width:999) {
+    .preloader .line{
+        width: 400px;
+    }
+}
+
 @media screen and (min-width:1200) {
     .preloader .line{
-        width: 500px;
+        width: 600px;
     }
 }
 

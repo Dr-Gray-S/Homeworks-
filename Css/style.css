@@ -606,6 +606,11 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .conteiner111 .up111 .first-items111 .text1 {
+    align-items: end;
+  }
+}
 .conteiner111 .up111 .first-items111 .text1 p.text1231 {
   color: #727272;
   text-align: right;
