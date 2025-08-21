@@ -182,6 +182,12 @@
   background-color: rgba(245, 245, 245, 0.5019607843);
   font-size: 0;
 }
+@media screen and (min-width: 1200px) {
+  .second .center {
+    display: flex;
+    align-items: center;
+  }
+}
 .second .center .take {
   display: inline-block;
   align-items: center;
@@ -671,7 +677,7 @@
   .conteiner111 .down111 .posts {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: nowrap;
   }
 }

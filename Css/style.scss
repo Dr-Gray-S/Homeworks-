@@ -188,6 +188,10 @@
         width: 100%;
         background-color: #F5F5F580;
         font-size: 0;
+        @media screen and (min-width: 1200px){
+            display: flex;
+            align-items: center;
+        }
         .take{
             display: inline-block;
             align-items: center;
@@ -659,7 +663,7 @@
             @media screen and (min-width: 1200px){
                 display: flex;
                 justify-content: space-between;
-                align-items: center;
+                align-items: baseline;
                 flex-wrap: nowrap;
             }
             .class{
