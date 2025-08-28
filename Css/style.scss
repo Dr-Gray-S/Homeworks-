@@ -338,12 +338,12 @@
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-    }
     .achievements-div-img-all{
         @media screen and (min-width: 768px){
             display: flex;
             gap: 40px;
         }
+    }
         .achievements-div-img{
         display: flex;
         justify-content: center;
