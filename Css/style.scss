@@ -226,7 +226,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px 104px;
+        padding: 30px 94px;
         border-radius: 12px;
         background: var(--Basic-White, #FFF);
         .achievements-img{
@@ -241,11 +241,12 @@
 }
 
 .footer-mobil1{
-    margin: 30px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: var(--Grey-Bg, #F5F5FA);
     .adres-footer{
         color: var(--Main-Regular, #323264);
         font-family: Montserrat;
