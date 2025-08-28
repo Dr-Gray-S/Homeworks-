@@ -26,6 +26,23 @@
     justify-content: space-between;
     align-items: center;
     margin: 15px;
+    @media screen and (min-width: 768px){
+        margin: 30px 60px;
+    }
+    .header12-svg{
+        .svg-2-svg{
+            @media screen and (min-width: 768px){
+                width: 130px;
+                height: 60px;
+            }
+        }
+        .svg-3-svg{
+            @media screen and (min-width: 768px){
+                width: 21px;
+                height: 47px;
+            }
+        }
+    }
     .about-us{
         color: var(--Main-Regular, #323264);
         font-family: Montserrat;
@@ -33,6 +50,15 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        @media screen and (min-width: 768px){
+            font-size: 36px;
+        }
+    }
+    .svg-4-svg{
+        @media screen and (min-width: 768px){
+            width: 130px;
+            height: 8px;
+        }
     }
     .svg-header12-3line{
         @media screen and (min-width: 768px){
@@ -43,6 +69,7 @@
         @include flex(start, start , column, 2px);
         .svg-2{
             display: flex;
+            align-items: center;
             gap: 6px;
         }
     }
@@ -58,6 +85,7 @@
     background: var(--Grey-Bg, #F5F5FA);
     @media screen and (min-width: 768px){
         margin: 50px 60px 30px;
+        padding: 0;
         background: white;
         justify-content: start;
         gap: 6px;
@@ -160,8 +188,14 @@
 .body1{
     margin: 30px;
     @include flex (center, center, column,2px);
+    @media screen and (min-width: 768px){
+        margin: 30px 60px;
+    }
     .nav{
         @include flex (center, center, column,2px);
+        @media screen and (min-width: 768px){
+            padding-bottom: 30px;
+        }
         .hhh1{
             font-family: Montserrat;
             font-size: 29px;
@@ -172,6 +206,9 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            @media screen and (min-width: 768px){
+                font-size: 38px;
+            }
         }
         .ppp1{
             font-family: Montserrat;
@@ -182,11 +219,15 @@
     }
 }
 .stickers-mass{
-        display: flex;
+    display: flex;
     flex-direction: column;
     gap: 40px;
     border-left: 4px solid var(--Grey-Separator, #E6E6F0);
     padding-left: 30px;
+    width: 100%;
+    @media screen and (min-width: 768px){
+        margin-bottom: 60px;
+    }
     .sticker{
         .litle-span{
             text-align: center;
@@ -237,11 +278,18 @@
         line-height: normal;
         letter-spacing: 25px;
         text-transform: uppercase;
+        @media screen and (min-width: 768px){
+            font-size: 48px;
+            letter-spacing: 63px;
+        }
     }
 }
 
 .body2{
     margin: 30px;
+    @media screen and (min-width: 768px){
+        margin: 30px 60px;
+    }
     .hhh1{
         font-family: Montserrat;
         font-size: 26px;
@@ -252,6 +300,9 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        @media screen and (min-width: 768px){
+            font-size: 38px;
+        }
     }
     .body2-text{
         color: var(--Basic-Black, #000);
@@ -293,6 +344,21 @@
         align-items: center;
         padding: 30px 94px;
         border-radius: 12px;
+        background: var(--Basic-White, #FFF);
+        .achievements-img{
+            width: 53px;
+            height: 40px;
+        }
+    }
+        .achievements-div-img1{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 94px;
+        border-radius: 12px;
+        @media screen and (min-width: 768px){
+            display: flex;
+        }
         background: var(--Basic-White, #FFF);
         .achievements-img{
             width: 53px;

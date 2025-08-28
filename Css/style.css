@@ -17,6 +17,23 @@
   align-items: center;
   margin: 15px;
 }
+@media screen and (min-width: 768px) {
+  .header12 {
+    margin: 30px 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header12 .header12-svg .svg-2-svg {
+    width: 130px;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header12 .header12-svg .svg-3-svg {
+    width: 21px;
+    height: 47px;
+  }
+}
 .header12 .about-us {
   color: var(--Main-Regular, #323264);
   font-family: Montserrat;
@@ -24,6 +41,17 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .header12 .about-us {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header12 .svg-4-svg {
+    width: 130px;
+    height: 8px;
+  }
 }
 @media screen and (min-width: 768px) {
   .header12 .svg-header12-3line {
@@ -39,6 +67,7 @@
 }
 .header12 .header12-svg .svg-2 {
   display: flex;
+  align-items: center;
   gap: 6px;
 }
 
@@ -54,6 +83,7 @@
 @media screen and (min-width: 768px) {
   .header1 {
     margin: 50px 60px 30px;
+    padding: 0;
     background: white;
     justify-content: start;
     gap: 6px;
@@ -168,12 +198,22 @@
   flex-direction: column;
   gap: 2px;
 }
+@media screen and (min-width: 768px) {
+  .body1 {
+    margin: 30px 60px;
+  }
+}
 .body1 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2px;
+}
+@media screen and (min-width: 768px) {
+  .body1 .nav {
+    padding-bottom: 30px;
+  }
 }
 .body1 .nav .hhh1 {
   font-family: Montserrat;
@@ -185,6 +225,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .body1 .nav .hhh1 {
+    font-size: 38px;
+  }
 }
 .body1 .nav .ppp1 {
   font-family: Montserrat;
@@ -199,6 +244,12 @@
   gap: 40px;
   border-left: 4px solid var(--Grey-Separator, #E6E6F0);
   padding-left: 30px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .stickers-mass {
+    margin-bottom: 60px;
+  }
 }
 .stickers-mass .sticker .litle-span {
   text-align: center;
@@ -250,9 +301,20 @@
   letter-spacing: 25px;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .pictures .team {
+    font-size: 48px;
+    letter-spacing: 63px;
+  }
+}
 
 .body2 {
   margin: 30px;
+}
+@media screen and (min-width: 768px) {
+  .body2 {
+    margin: 30px 60px;
+  }
 }
 .body2 .hhh1 {
   font-family: Montserrat;
@@ -264,6 +326,11 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .body2 .hhh1 {
+    font-size: 38px;
+  }
 }
 .body2 .body2-text {
   color: var(--Basic-Black, #000);
@@ -308,6 +375,23 @@
   background: var(--Basic-White, #FFF);
 }
 .achievements .achievements-div-img .achievements-img {
+  width: 53px;
+  height: 40px;
+}
+.achievements .achievements-div-img1 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 94px;
+  border-radius: 12px;
+  background: var(--Basic-White, #FFF);
+}
+@media screen and (min-width: 768px) {
+  .achievements .achievements-div-img1 {
+    display: flex;
+  }
+}
+.achievements .achievements-div-img1 .achievements-img {
   width: 53px;
   height: 40px;
 }
