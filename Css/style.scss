@@ -24,8 +24,22 @@
 .header12{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    .about-us{
+        color: var(--Main-Regular, #323264);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
     .header12-svg{
-        @include flex(start, center , row ,4px);
+        @include flex(start, start , column, 2px);
+        .svg-2{
+            display: flex;
+            gap: 6px;
+        }
     }
 }
 
@@ -39,20 +53,7 @@
     background: var(--Grey-Bg, #F5F5FA);
     .word{
         display: flex;
-        gap: 14px;
-        &:hover>.Language{
-            color: var(--Basic-White, #FFF);
-            text-align: center;
-            font-family: Montserrat;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: 1px;
-            padding: 7px;
-            border-radius: 8px;
-            background: var(--Accent, #F0145A);
-        }
+        align-items: center;
         .Language{
             color: var(--Grey-Text, #B3B3BA);
             text-align: center;
@@ -62,6 +63,19 @@
             font-weight: 700;
             line-height: normal;
             letter-spacing: 1px;
+            border-radius: 8px;
+            padding: 7px;
+            &:hover{
+                color: var(--Basic-White, #FFF);
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1px;
+                background: var(--Accent, #F0145A);
+                }
         }
     }
     .number{
@@ -76,16 +90,20 @@
 
 
 .body1{
+    margin: 30px;
     @include flex (center, center, column,2px);
     .nav{
         @include flex (center, center, column,2px);
-        margin: 30px;
         .hhh1{
             font-family: Montserrat;
-            font-size: 35px;
+            font-size: 29px;
             font-style: normal;
             font-weight: 700;
             padding-bottom: 28px;
+            background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         .ppp1{
             font-family: Montserrat;
@@ -93,5 +111,109 @@
             font-style: normal;
             font-weight: 400;
         }
+    }
+}
+.stickers-mass{
+        display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-left: 4px solid var(--Grey-Separator, #E6E6F0);
+    padding-left: 30px;
+    .sticker{
+        .litle-span{
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tekst1{
+            color: var(--Main-Regular, #323264);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.img-team{
+    position: absolute;
+    width: 100%;
+    background:url(<path-to-image>) lightgray 50% / cover no-repeat;;
+}
+
+.team{
+    color: var(--Basic-White, #FFF);
+    text-align: center;
+    text-shadow: 0 15px 30px rgba(40, 40, 86, 0.80);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    position: relative;
+    opacity: 0.8;
+}
+
+.body2{
+    margin: 30px;
+    .hhh1{
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        padding-bottom: 28px;
+        background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .body2-text{
+        color: var(--Basic-Black, #000);
+        font-family: Montserrat;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+.achievements{
+    display: flex;
+    padding: 30px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+    background: var(--Grey-Bg, #F5F5FA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .achievements-text{
+        color: var(--Main-Regular, #323264);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .achievements-div-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background: var(--Basic-White, #FFF);
     }
 }
