@@ -1,0 +1,26 @@
+@font-face {
+
+}
+
+$colors:(
+    main: (background: var(--Main-Regular, #323264)),
+    main-alt: ( background: var(--Main-Alt, #46466E)),
+    main-soft: ( background: var(--Main-Soft, #686887)),
+    accent: (background: var(--Accent, #F0145A)),
+    active-regular: (background: var(--Active-Regular, #24A3FF)),
+    active-hover: (background: var(--active-hover, #0085FF)),
+    active-active: (background: var(--active-active, #006CCF)),
+    gradient: (background: var(--Gradient-Regular, linear-gradient(129deg, #323264 0%, #323264 73.96%, #A54B5F 100%))),
+    gradient-soft: (background: var(--Gradient-Soft, linear-gradient(42deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%))),
+    gradient-red: (background: var(--Gradient-Red, linear-gradient(323deg, #F0145A 6.7%, #693264 70.36%))),
+    gradient-supersoft: (background: var(--Gradient-Supersoft, linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%))),
+    red-text: (background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%))),
+)
+
+$types:(
+    hero: (font-family: 'Montserrat', font-size: 38px, font-style: normal, font-weight: 700),
+    H2: (font-family: 'Montserrat', font-size: 30px, font-style: normal, font-weight: 700),
+    H3: (font-family: 'Montserrat', font-size: 22px, font-style: normal, font-weight: 700, line-height: normal),
+    H3-caps: (font-family: 'Montserrat' ,font-size: 14px, font-style: normal, font-weight: 700, line-height: normal, letter-spacing: 1px, text-transform: uppercase),
+    H4: (font-family: 'Montserrat', font-size: 16px, font-style: normal, font-weight: 700, line-height: normal),
+)

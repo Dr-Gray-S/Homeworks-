@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+}
+
+@mixin flex($js,$ai,$fd,$g){
+    display: flex;
+    justify-content: $js;
+    align-items: $ai;
+    flex-direction: $fd;
+    gap: $g;
+}
+
+.header12{
+    display: flex;
+    justify-content: space-between;
+    .header12-svg{
+        @include flex(start, center , row ,4px);
+    }
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--Grey-Bg, #F5F5FA);
+    .word{
+        display: flex;
+        gap: 14px;
+        &:hover>.Language{
+            color: var(--Basic-White, #FFF);
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            padding: 7px;
+            border-radius: 8px;
+            background: var(--Accent, #F0145A);
+        }
+        .Language{
+            color: var(--Grey-Text, #B3B3BA);
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+        }
+    }
+    .number{
+        color: var(--Grey-Text, #B3B3BA);
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+    }
+}
+
+
+.body1{
+    @include flex (center, center, column,2px);
+    .nav{
+        @include flex (center, center, column,2px);
+        margin: 30px;
+        .hhh1{
+            font-family: Montserrat;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            padding-bottom: 28px;
+        }
+        .ppp1{
+            font-family: Montserrat;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+}
