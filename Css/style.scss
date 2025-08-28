@@ -144,8 +144,10 @@
 }
 
 .pictures{
-    position: absolute;
+    position: relative;
     width: 100%;
+    // aspect-ratio: 16/9;
+    overflow: hidden;
     .img-team{
         position: relative;
         display: block;
@@ -158,15 +160,15 @@
     text-align: center;
     text-shadow: 0 15px 30px rgba(40, 40, 86, 0.80);
     font-family: Montserrat;
-    font-size: 22px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 30px;
+    letter-spacing: 25px;
     text-transform: uppercase;
     position: absolute;
     opacity: 0.8;
-    left: 23%;
+    left: 29%;
     top: 38%;
     }
 }
@@ -193,6 +195,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 30px;
+        padding-bottom: 30px;
     }
 }
 
@@ -207,6 +210,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 3px solid var(--Grey-Separator, #E6E6F0);;
     .achievements-text{
         color: var(--Main-Regular, #323264);
         text-align: center;
@@ -222,7 +226,75 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 30px 104px;
         border-radius: 12px;
         background: var(--Basic-White, #FFF);
+        .achievements-img{
+            width: 53px;
+            height: 40px;
+        }
+    }
+    .svg-gap{
+        display: flex;
+        gap: 14px;
+    }
+}
+
+.footer-mobil1{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .adres-footer{
+        color: var(--Main-Regular, #323264);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+    .map-footer{
+        color: var(--Active-Regular, #24A3FF);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 21px;
+    }
+    .number-footer{
+        color: var(--Main-Alt, #46466E);
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 10px 0 10px ;
+    }
+    .contact-footer{
+        color: var(--Active-Regular, #24A3FF);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-bottom: 30px;
+        &:hover{
+            color: var(--Accent, #F0145A);
+        }
+    }
+    .c-footer{
+        color: var(--Grey-Text, #B3B3BA);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
