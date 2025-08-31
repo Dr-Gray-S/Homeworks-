@@ -439,11 +439,6 @@
   flex-direction: column;
   gap: 2px;
 }
-@media screen and (min-width: 768px) {
-  .body1 .nav {
-    padding-bottom: 30px;
-  }
-}
 @media screen and (min-width: 1024px) {
   .body1 .nav {
     width: 100%;
@@ -454,7 +449,6 @@
   font-size: 29px;
   font-style: normal;
   font-weight: 700;
-  padding-bottom: 28px;
   background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -476,242 +470,72 @@
   font-style: normal;
   font-weight: 400;
 }
-.body1 .stickers-mass {
+
+.alle-person-image {
   display: flex;
-  justify-content: start;
-  align-items: start;
   flex-direction: column;
-  gap: 40px;
-  border-left: 4px solid var(--Grey-Separator, #E6E6F0);
-  padding-left: 30px;
-  width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .body1 .stickers-mass {
-    margin-bottom: 60px;
-  }
-}
-.body1 .stickers-mass .sticker .litle-span {
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.body1 .stickers-mass .sticker .tekst1 {
-  color: var(--Main-Regular, #323264);
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.pictures {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 0;
-  position: relative;
-  width: 100%;
-}
-.pictures .img-team {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-}
-.pictures .team {
-  position: absolute;
-  text-align: center;
-  color: var(--Basic-White, #FFF);
-  text-shadow: 0 15px 30px rgba(40, 40, 86, 0.8);
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 25px;
-  text-transform: uppercase;
-}
-@media screen and (min-width: 768px) {
-  .pictures .team {
-    font-size: 48px;
-    letter-spacing: 63px;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1024px) {
-  .pictures .team {
-    font-size: 77px;
-  }
-}
-
-.body2 {
+  gap: 30px;
   margin: 30px;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 768px) {
-  .body2 {
-    margin: 30px 60px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .body2 {
-    display: flex;
+  .alle-person-image {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 60px;
     margin: 60px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .body2 {
-    margin: 60px 180px;
+  .alle-person-image {
+    justify-content: center;
+    gap: 60px 60px;
   }
 }
-.body2 .hhh1 {
+@media screen and (min-width: 768px) {
+  .alle-person-image .alle-img {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .alle-person-image .alle-img {
+    width: 28%;
+  }
+}
+.alle-person-image .alle-img .alle-img-img {
+  width: 100%;
+  border-radius: 12px;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat, url(<path-to-image>) lightgray 50%/cover no-repeat;
+}
+.alle-person-image .alle-img .alle-person-text-svg {
+  display: flex;
+  justify-content: space-between;
+}
+.alle-person-image .alle-img .alle-person-text-svg:hover path {
+  stroke: #F0145A;
+}
+.alle-person-image .alle-img .alle-person-text-svg .alle-person-text .alle-person-p1 {
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  padding-bottom: 28px;
+  line-height: normal;
+  color: var(--Main-Regular, #323264);
+}
+.alle-person-image .alle-img .alle-person-text-svg .alle-person-text .alle-person-p1:hover {
   background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media screen and (min-width: 768px) {
-  .body2 .hhh1 {
-    font-size: 38px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .body2 .hhh1 {
-    width: 50%;
-    font-size: 40px;
-  }
-}
-.body2 .body2-text-div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-@media screen and (min-width: 1024px) {
-  .body2 .body2-text-div {
-    width: 50%;
-  }
-}
-.body2 .body2-text-div .body2-text {
-  color: var(--Basic-Black, #000);
-  font-family: Montserrat;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  padding-bottom: 30px;
-}
-
-.achievements {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-  padding: 30px 60px;
-  align-self: stretch;
-  background: var(--Grey-Bg, #F5F5FA);
-  border-bottom: 3px solid var(--Grey-Separator, #E6E6F0);
-}
-.achievements .achievements-text {
-  color: var(--Main-Regular, #323264);
-  text-align: center;
+.alle-person-image .alle-img .alle-person-text-svg .alle-person-text .alle-person-p2 {
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-@media screen and (min-width: 768px) {
-  .achievements .achievements-div-img-all {
-    display: flex;
-    gap: 40px;
-  }
-}
-.achievements .achievements-div-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 94px;
-  border-radius: 12px;
-  background: var(--Basic-White, #FFF);
-}
-@media screen and (min-width: 768px) {
-  .achievements .achievements-div-img {
-    padding: 24px 39px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .achievements .achievements-div-img {
-    padding: 25px 85px;
-  }
-}
-.achievements .achievements-div-img .achievements-img {
-  width: 53px;
-  height: 40px;
-}
-@media screen and (min-width: 1440px) {
-  .achievements .achievements-div-img .achievements-img {
-    width: 90px;
-    height: 40px;
-  }
-}
-.achievements .achievements-div-img1 {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 94px;
-  border-radius: 12px;
-  background: var(--Basic-White, #FFF);
-}
-@media screen and (min-width: 768px) {
-  .achievements .achievements-div-img1 {
-    display: flex;
-    padding: 24px 13px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .achievements .achievements-div-img1 {
-    padding: 30px 62px;
-  }
-}
-.achievements .achievements-div-img1 .achievements-img {
-  width: 106px;
-  height: 40px;
-}
-@media screen and (min-width: 1440px) {
-  .achievements .achievements-div-img1 .achievements-img {
-    width: 140px;
-    height: 60px;
-  }
-}
-.achievements .svg-gap {
-  display: flex;
-  gap: 14px;
-}
-@media screen and (min-width: 768px) {
-  .achievements .svg-gap .svg-gap-1 {
-    display: none;
-    width: 0;
-    height: 0;
-  }
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--Grey-Text, #B3B3BA);
 }
 
 .footer-mobil1 {
@@ -874,4 +698,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=team.css.map */
